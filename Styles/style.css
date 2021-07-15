@@ -15,7 +15,7 @@ main{
 }
 .container{
     background-color: #FFFFFF;
-    width: 870px;
+    width: 70%;
     padding: 30px;
     border-radius: 5px;
     margin-top: 21px;
@@ -147,13 +147,13 @@ hr{
 /* Media Quris----- */
 
 @media only screen and (max-width 688px){
+    .players{
+        grid-template-columns: 1fr;
+    }
     .container{
         width: 100%;
     }
-    .top-players .blogs .courses{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .player .blog .courses{
+    .player{
         flex-direction: column;
     }
 }
